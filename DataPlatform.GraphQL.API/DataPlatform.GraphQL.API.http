@@ -1,0 +1,12 @@
+@DataPlatform.GraphQL.API_HostAddress = https://localhost:54362
+
+
+POST https://localhost:54362/graphql
+Content-Type: application/json
+
+{
+    "query": "{product(productId: 711){     productID     name    productNumber}}"
+}
+
+ 
+###
